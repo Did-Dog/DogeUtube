@@ -1,0 +1,26 @@
+{
+  "name": "DogeUtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+
+  },
+  "keywords": [],
+  "author": "DidDog",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.2.6",
+    "node-telegram-bot-api": "^0.64.0",
+    "ytdl-core": "^4.11.5"
+  }
+}

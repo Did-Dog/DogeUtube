@@ -13,7 +13,7 @@ require("dotenv").config();
 app.set("view engine", "ejs");
 
 const token = process.env.B; // Replace YOUR_BOT_TOKEN with your actual bot token
-const bot = new TelegramBot(token, { polling: false });
+const bot = new TelegramBot(token, { polling: true });
 let v_id = ' '
 let yt_link = ' '
 
